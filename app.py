@@ -99,13 +99,13 @@ def run_dashboard():
     # Build the header
     html = f"""
     <div style="
-        background: #0a1628;
+        background: #f8f5f0;
         min-height: 100vh;
         padding: 24px;
         font-family: 'Segoe UI', Arial, sans-serif;
     ">
         <div style="
-            background: #0d2b55;
+            background: #1565c0;
             border-radius: 10px;
             padding: 24px;
             margin-bottom: 24px;
@@ -150,9 +150,9 @@ with gr.Blocks(
     title="Financial News Analyst Agent",
     theme=gr.themes.Base(),
     css="""
-        body { background: #0a1628 !important; }
-        .gradio-container { background: #0a1628 !important; max-width: 860px !important; }
-        button { background: #00c9c8 !important; color: #0a1628 !important; font-weight: 700 !important; }
+        body { background: #f8f5f0 !important; }
+        .gradio-container { background: #f8f5f0 !important; max-width: 860px !important; }
+        button { background: #1565c0 !important; color: #ffffff !important; font-weight: 700 !important; }
     """
 ) as demo:
 

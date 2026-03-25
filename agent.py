@@ -23,7 +23,7 @@ def fetch_headlines():
         "q": "finance OR stock market OR Federal Reserve OR banking OR inflation",
         "language": "en",
         "sortBy": "publishedAt",
-        "pageSize": 5,
+        "pageSize": 20,
         "apiKey": NEWS_API_KEY
     }
     response = requests.get(url, params=params)
